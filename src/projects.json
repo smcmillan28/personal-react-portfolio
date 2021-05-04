@@ -1,0 +1,44 @@
+[
+    {
+        "title": "FamilyManager",
+        "description": "Application that allows users to compile a list of household tasks for their family.  Tasks can be presented by user, project, or due date.  This app also allows users to keep track of monthly/weekly expenses.",
+        "image": "./public/images/fammanager.JPG",
+        "github": "https://github.com/tuanle99/Project-2",
+        "deployed": "https://family-manager-application.herokuapp.com/api/users/login"
+    },
+    {
+        "title": "Random Recipe Generator",
+        "description": "Application that returns recipes to user based on ingredient selection, then allows them to save favorite recipes and search for nearby grocery stores.",
+        "image": "./public/images/rec-gen.JPG",
+        "github": "https://github.com/dboivert13/Random-Recipe-Generator",
+        "deployed": "https://dboivert13.github.io/Random-Recipe-Generator/"
+    },
+    {
+        "title": "Weather Dashboard",
+        "description": "Application that returns accurate current and forecasted weather data based on user city search. Allows user to save and recall weather data from previous search history.",
+        "image": "./public/images/weather-dash.JPG",
+        "github": "https://github.com/smcmillan28/weather-dashboard-hw",
+        "deployed": "https://smcmillan28.github.io/weather-dashboard-hw/"
+    },
+    {
+        "title": "Reactive Employee Directory",
+        "description": "Human Resources and Employee Management system developed using React.js library.  Allows user to sort by age and filter employees by last name.",
+        "image": "./public/images/emp-directory.JPG",
+        "github": "https://github.com/smcmillan28/REACTive-employee-directory",
+        "deployed": "https://smcmillan28.github.io/REACTive-employee-directory/"
+    },
+    {
+        "title": "Code Quiz",
+        "description": "A simple multiple choice quiz that tests users basic JavaScript knowledge.  Score are calculated and stored using time remaining and questions answered correctly.",
+        "image": "./public/images/code-quiz.JPG",
+        "github": "https://github.com/smcmillan28/code-quiz-hw",
+        "deployed": "https://smcmillan28.github.io/code-quiz-hw/"
+    },
+    {
+        "title": "Secure Password Generator",
+        "description": "Password generating application that provides random collection of characters to user based on criteria input.",
+        "image": "./public/images/pass-gen.JPG",
+        "github": "https://github.com/smcmillan28/secure-password-generator",
+        "deployed": "https://smcmillan28.github.io/secure-password-generator/"
+    }
+]
