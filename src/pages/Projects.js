@@ -1,8 +1,23 @@
 import React from "react";
+import { AccordionWrapper, AccordionItem } from "../components/Accordion.js";
+import projects from "../projects.json";
 
 function Projects() {
     return (
-        <h1>This is the project page</h1>
+        <AccordionWrapper>
+            {projects.map(project => {
+                return(
+                    <AccordionItem
+                        key={project.id}
+                        title={project.title}
+                        image={project.image}
+                        description={project.description}
+                        github={project.github}
+                        deployed={project.deployed}
+                    />
+                );
+            })}
+        </AccordionWrapper>
     )
 }
 
