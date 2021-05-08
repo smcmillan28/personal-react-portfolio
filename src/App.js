@@ -1,3 +1,4 @@
+import './index.css';
 import './App.css';
 import Header from "./components/Header.js";
 import Home from "./pages/Home.js";

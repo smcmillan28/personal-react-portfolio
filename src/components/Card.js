@@ -22,8 +22,8 @@ function Card(props) {
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>
-                    <a style={styles.buttonStyle} href={props.deployed} className="btn btn-outline-dark" target="_blank">Deployed App</a>
-                    <a href={props.github} className="btn btn-outline-dark" target="_blank">GitHub Repo</a>
+                    <a style={styles.buttonStyle} href={props.deployed} className="btn btn-outline-dark" target="_blank" rel="noreferrer">Deployed App</a>
+                    <a href={props.github} className="btn btn-outline-dark" target="_blank" rel="noreferrer">GitHub Repo</a>
                 </div>
         </div>
     )
