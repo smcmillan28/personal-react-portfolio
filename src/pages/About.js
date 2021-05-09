@@ -6,15 +6,19 @@ const styles = {
         marginTop: "15px",
         width: "70%",
         backgroundColor: "lightgoldenrodyellow"
+    },
+    imageStyle: {
+        height: "200px",
+        width: "200px",
+        borderRadius: "5px"
     }
 }
 
 function About() {
     return (
         <div className="card" style={styles.cardStyle}>
-            <img src="./images/sam-prof.jpg" className="card-img-top" alt="profile" />
             <div className="card-body">
-                <h5 className="card-title">About Me</h5>
+                <h3 className="card-title">About Me</h3>
                 <div className="content">
                     <p>
                         My name is Sam McMillan. Thank you for visiting my page. It will give you a brief overview of my
@@ -43,6 +47,7 @@ function About() {
                         <p>Phone: (404) 403-9716</p>
                         <p>Link to <a href="https://smcmillan28.github.io/resume/" target="_blank" rel="noreferrer">resume</a></p>
                     </div>
+                    <img style={styles.imageStyle} src="./images/profile.JPG" className="card-img-top" alt="profile" />
                 </div>
             </div>
         </div>
