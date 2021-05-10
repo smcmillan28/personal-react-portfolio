@@ -10,7 +10,7 @@ function Projects() {
             <Row>
                 <Col size="md-12">
                     <Jumbotron>
-                        <h3>scroll down to see a list of projects</h3>
+                        <h3>welcome</h3>
                     </Jumbotron>
                 </Col>
             </Row>
