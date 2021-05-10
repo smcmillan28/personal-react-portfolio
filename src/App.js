@@ -18,6 +18,7 @@ function App() {
         <Route exact path="/projects" component={Projects} />
         <Route path="*" component={NoMatch} />
       </Switch>
+      <div style={{ margin: "60px" }}></div>
       <Footer />
     </Router>
   );
