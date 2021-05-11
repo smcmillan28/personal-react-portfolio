@@ -6,11 +6,11 @@ import About from "./pages/About.js";
 import Projects from "./pages/Projects.js";
 import NoMatch from "./pages/NoMatch.js";
 import Footer from "./components/Footer.js";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Header />
       <Switch>
         <Route exact path={["/", "/home"]} component={Home} />

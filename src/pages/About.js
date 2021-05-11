@@ -22,7 +22,7 @@ function About() {
             <Row>
                 <Col size="md-12">
                     <Jumbotron>
-                        <h3>welcome</h3>
+                        <h3>welcome.</h3>
                     </Jumbotron>
                 </Col>
             </Row>
