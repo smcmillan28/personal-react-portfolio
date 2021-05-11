@@ -6,7 +6,8 @@ import About from "./pages/About.js";
 import Projects from "./pages/Projects.js";
 import NoMatch from "./pages/NoMatch.js";
 import Footer from "./components/Footer.js";
-import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
+import React from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
